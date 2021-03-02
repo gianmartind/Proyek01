@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Proyek01</string>
+    <string name="title_active">Aktif</string>
+    <string name="title_completed">Selesai</string>
+    <string name="title_all">Semua</string>
+    <string name="title_addnew">Tambah proyek</string>
+    <string name="add_new">Tambah proyek</string>
+    <string name="project_name">Nama proyek</string>
+    <string name="project_startdate">Tanggal mulai</string>
+    <string name="project_address">Alamat</string>
+    <string name="add_new_button">{fa_plus_square} Tambah</string>
+    <string name="pengeluaran">Pengeluaran:</string>
+    <string name="material">Material:</string>
+    <string name="lain">Lain-lain:</string>
+    <string name="total">Total:</string>
+    <string name="start_date">Tanggal mulai</string>
+    <string name="status">Status</string>
+    <string name="fab_content_desc">Proyek selesai</string>
+    <string name="lainlain">{fa_cubes} Lain-lain</string>
+    <string name="material2">{fa_cube} Material</string>
+    <string name="pembayaran">{fa_money} Pembayaran</string>
+    <string name="bayar">Pembayaran</string>
+    <string name="add_material">Tambah material</string>
+    <string name="material_name">Material</string>
+    <string name="material_store">Toko</string>
+    <string name="material_price">Harga</string>
+    <string name="material_date">Tanggal</string>
+    <string name="add_material_btn">{fa_plus} Tambah</string>
+</resources>

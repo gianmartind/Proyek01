@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/project_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textSize="@dimen/title"
+            android:textColor="@color/black"
+            android:text="Project Placeholder"/>
+
+        <TextView
+            android:id="@+id/project_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/blue"
+            android:text="Selesai \n 20-19-20"
+            android:textAlignment="textEnd"
+            android:textSize="@dimen/sub_title" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/project_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sub_title"
+        android:paddingLeft="10dp"
+        android:paddingBottom="6dp"
+        android:text="Jl. Placeholder no. 44"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/bootstrap_gray_light"/>
+</LinearLayout>

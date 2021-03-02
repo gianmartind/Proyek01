@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_material"
+                android:textAlignment="center"
+                android:textSize="@dimen/semi_big_title" />
+
+            <com.beardedhen.androidbootstrap.AwesomeTextView
+                android:id="@+id/project_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Untuk Proyek"
+                android:textSize="@dimen/title" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/material_name" />
+
+                <com.beardedhen.androidbootstrap.BootstrapEditText
+                    android:id="@+id/material_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bootstrapSize="lg"
+                    app:roundedCorners="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/material_store" />
+
+                <com.beardedhen.androidbootstrap.BootstrapEditText
+                    android:id="@+id/material_store"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bootstrapSize="lg"
+                    app:roundedCorners="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/material_price" />
+
+                <com.beardedhen.androidbootstrap.BootstrapEditText
+                    android:id="@+id/material_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    app:bootstrapSize="lg"
+                    app:roundedCorners="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/material_date" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal">
+
+                    <com.beardedhen.androidbootstrap.BootstrapEditText
+                        android:id="@+id/material_date"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="yyyy-MM-dd"
+                        app:bootstrapSize="lg"
+                        app:roundedCorners="true" />
+
+                    <com.beardedhen.androidbootstrap.BootstrapButton
+                        android:id="@+id/material_calendar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        app:bootstrapBrand="primary"
+                        app:bootstrapSize="lg"
+                        app:bootstrapText="{fa_calendar}"
+                        app:roundedCorners="true" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/add_material_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:bootstrapBrand="info"
+            app:bootstrapSize="xl"
+            app:bootstrapText="@string/add_material_btn"
+            app:roundedCorners="true" />
+    </LinearLayout>
+</LinearLayout>
